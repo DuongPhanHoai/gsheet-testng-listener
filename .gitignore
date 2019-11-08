@@ -1,0 +1,17 @@
+# Ignore project files
+.settings
+.gradle
+.classpath
+.project
+
+# Ignore Gradle build output directory
+build
+.scannerwork
+tokens
+bin
+gradle
+target
+
+mvn clean deploy
+mvn nexus-staging:release
+mvn nexus-staging:drop
