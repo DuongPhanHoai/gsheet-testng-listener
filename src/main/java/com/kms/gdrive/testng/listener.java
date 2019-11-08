@@ -43,7 +43,7 @@ public class listener extends TestListenerAdapter {
  
   @Override
   public void onTestSuccess(ITestResult tr) {
-    System.out.println(">>>>>>>>>>>>>>>>>>>>>>>> " + tr.getName() + " Passed" + tr.getTestContext().getSuite().getAttribute("Hello"));
+    System.out.println(">>>>>>>>>>>>>>>>>>>>>>>> " + tr.getName() + " Passed");
     String sheetID = getAttributeFromSuite(tr.getTestContext(), "gsheet.sheetID", "1eaAz6HwGiZxJjpTIgasOzVegRFK2UnDUC2H6r0-SI2Q");
     String sheetName = getAttributeFromSuite(tr.getTestContext(), "gsheet.sheetName", "TestResult");
     Report.updateTestResultInExistingResult(tr.getName(), "Passed", sheetName, sheetID);

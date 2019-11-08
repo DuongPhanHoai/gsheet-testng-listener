@@ -12,10 +12,8 @@ Further information will be update later
     <parameter name="gsheet.sheetName"  value="TestResult"/>
 
   <listeners>
-    <listener class-name="com.mycompany.app.myListener" />
+    <listener class-name="com.kms.gdrive.testng.listener" />
   </listeners>
-
-
 
   <test name="TestNgMavenTest">
     <classes>
@@ -23,5 +21,4 @@ Further information will be update later
       <class name="com.mycompany.app.myTest2"/>
     </classes>
   </test>
-
 </suite>
