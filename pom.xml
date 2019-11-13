@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.duongphanhoai</groupId>
 	<artifactId>gsheet-testng-listener</artifactId>
-	<version>0.0.2</version>
+	<version>0.0.3</version>
 	<name>gsheet-testng-listener</name>
   <url>https://github.com/DuongPhanHoai/gsheet-testng-listener</url>
   <description>Listener for testNG to update google sheet report</description>
@@ -38,7 +38,7 @@
     <dependency>
       <groupId>com.github.duongphanhoai</groupId>
       <artifactId>gsheet-report</artifactId>
-      <version>0.1.18</version>
+      <version>0.1.19</version>
     </dependency>
     <dependency>
       <groupId>org.testng</groupId>
