@@ -38,7 +38,7 @@
     <dependency>
       <groupId>com.github.duongphanhoai</groupId>
       <artifactId>gsheet-report</artifactId>
-      <version>0.1.19</version>
+      <version>0.1.20</version>
     </dependency>
     <dependency>
       <groupId>org.testng</groupId>
